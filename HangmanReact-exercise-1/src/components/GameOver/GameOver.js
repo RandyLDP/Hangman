@@ -18,7 +18,7 @@ const GameOver = props => {
     </div>
   );
 
-  return props.wordGuessed ? winResult : loseResult;
+  return props.wordGuessed ?  loseResult: winResult;
 };
 
 export default GameOver;

@@ -13,8 +13,10 @@ const TextInput = props => (
       type="submit"
       value="guess"
       disabled={props.gameIsOver ? "disabled" : ""}
+      
     />
   </form>
+  
 );
 
 export default TextInput;

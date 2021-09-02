@@ -15,4 +15,4 @@ const ChosenWord = props => (
   </>
 );
 
-export default ChosenWord;
+export default ChosenWord;d
